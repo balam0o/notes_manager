@@ -4,7 +4,7 @@ This is the work sample, a rest endpoint to manage notes in a database
 
 ## Starting
 
-You need to start the database an run on the code "spring-boot:run" that should be everything to start sending requests
+You need to create the database and the table, then run the code "spring-boot:run" that should be everything to start sending requests (I used postman to make all the tests)
 
 ### Requirements
 
