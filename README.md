@@ -8,27 +8,25 @@ You need to create the database and the table, then run the code "spring-boot:ru
 
 ### Requirements
 
--XAMPP
+-XAMPP (used to run mysql and apache)
 
--MYSQL
+-MYSQL (used to create the database)
 
--POSTMAN
+-POSTMAN (used to make the requests)
 
--INTELLIJ
+-INTELLIJ (used to code)
 
--SPRINGBOOT
+-SPRINGBOOT (used to compile the web app as a war app)
 
--SPRING WEB
+-SPRING WEB (used to build the restful application)
 
--MAVEN
+-MAVEN (used to download some libraries)
 
--JDK
+-HIBERNATE (used to map the objects to the database)
 
--HIBERNATE
+-JPA (uses to work with entity manager)
 
--JPA
-
--LOMBOK
+-LOMBOK (used to add some util notations)
 
 ## Tests
 
