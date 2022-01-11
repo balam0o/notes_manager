@@ -15,9 +15,7 @@ public class NoteController {
     public void createNote(@RequestBody Note note) { noteDao.create(note); }
 
     @RequestMapping(value = "api/notes", method = RequestMethod.GET)
-    public List<Note> getNotes() {
-        return noteDao.getNotes();
-    }
+    public List<Note> getNotes() { return noteDao.getNotes(); }
 
     @RequestMapping(value = "api/notes/{id}", method = RequestMethod.PUT)
     public void updateNote(@PathVariable Long id, @RequestBody Note note) { noteDao.updateNote(id, note); }
@@ -26,9 +24,7 @@ public class NoteController {
     public Note getNote(@PathVariable Long id) { return noteDao.getNote(id); }
 
     @RequestMapping(value = "api/notes/{id}", method = RequestMethod.DELETE)
-    public void deleteNote(@PathVariable Long id) {
-        noteDao.delete(id);
-    }
+    public void deleteNote(@PathVariable Long id) { noteDao.delete(id); }
 
     @RequestMapping(value = "api/notes", method = RequestMethod.DELETE)
     public void deleteNotes() { noteDao.deleteNotes(); }
